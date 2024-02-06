@@ -14,7 +14,6 @@ public class Main {
             numbers.add(Integer.parseInt(numbersStr[i]));
         }
 
-        // Выведите массив чисел на консоль для проверки
         System.out.println("Избавились от повторяющихся значений:");
         for (int number : numbers) {
             System.out.print(number + " ");
